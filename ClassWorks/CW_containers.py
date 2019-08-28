@@ -72,11 +72,27 @@
 # На початку на вхід подається кількість елементів послідовності, а потім самі елементи. 
 # При появі від’ємного числа програма зупиняється (якщо зустрічається 0 програма теж зупиняється).
 
-
+# leng=int(input("Enter length of sequence: "))
+# nums=[]
+# for i in range(leng):
+#     num=int(input("Enter number: "))
+#     if num<=0:
+#         break
+#     nums.append(num)
 
 #  7.  Знайти прості числа від 10 до 30, а всі решта чисел представити у вигляді добутку чисел 
 # (наприклад 10 equals 2 * 5
 
+# for number in range(10, 30):
+#     if number > 1:
+#         for i in range(2, number):
+#             if number % i == 0:
+#                 print(number, ' equals 2 * {}'.format(number/2))
+#                 break
+#         else:
+#             print(number, 'is a prime number')
 
 
 #8.  Відсортувати слова в реченні в порядку їх довжини (використати List Comprehensions)
+
+# print(" ".join(sorted(input().split(), key = len)))
